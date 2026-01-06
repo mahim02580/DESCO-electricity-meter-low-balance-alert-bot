@@ -26,19 +26,19 @@ Download ChromeDriver matching your Chrome version.
 Create a .env file in the same directory as the script:
 
 ACCOUNT_NUMBER=YOUR_METER_ACCOUNT_NUMBER
+
 EMAIL=your_email@gmail.com
+
 APP_PASSWORD=your_gmail_app_password
 
 
-_⚠ Gmail requires an App Password — not regular password._
+_⚠ Gmail requires an App Password — not a regular password._
 
 ### ▶️ How to Run
 
-Run manually from terminal:
+Run manually from the terminal:
 
 `python main.py`
-
-Or set a scheduled task / cronjob for auto-checking every hour.
 
 ### 📧 Email Alert Example
 
