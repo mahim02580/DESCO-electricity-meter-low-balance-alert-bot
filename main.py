@@ -19,7 +19,7 @@ def send_email(body):
         connection.login(EMAIL, APP_PASSWORD)
         connection.sendmail(
             from_addr=EMAIL,
-            to_addrs="mahim02580@gmail.com",
+            to_addrs=EMAIL,
             msg=f"Subject:⚠️Electricity Meter Low Balance Alert!\n\n{body}".encode()
         )
 
